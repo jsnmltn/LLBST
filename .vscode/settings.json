@@ -1,0 +1,8 @@
+{
+    "editor.defaultFormatter": "redhat.java",
+    "editor.detectIndentation": true,
+    "[java]": {
+        "editor.defaultFormatter": "redhat.java"
+    },
+    "diffEditor.codeLens": true
+}
