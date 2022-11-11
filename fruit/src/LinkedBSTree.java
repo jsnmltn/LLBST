@@ -7,8 +7,8 @@ public class LinkedBSTree {
         private Node leftChild;
         private Node rightChild;
 
-        public Node(String aname, float aData) {
-            name = aname;
+        public Node(String aName, float aData) {
+            name = aName;
             data = aData;
             leftChild = null;
             rightChild = null;
@@ -126,7 +126,7 @@ public class LinkedBSTree {
 /////Main Method for entry point to test the program
     public static void main(String args[]) {
         LinkedBSTree l = new LinkedBSTree();
-        String fileName = "input.txt";
+        String fileName = "./input.txt";
 
         try (BufferedReader br = new BufferedReader(new FileReader(fileName))) {
 
