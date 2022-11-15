@@ -126,7 +126,7 @@ public class LinkedBSTree {
 /////Main Method for entry point to test the program
     public static void main(String args[]) {
         LinkedBSTree l = new LinkedBSTree();
-        String fileName = "input.txt";
+        String fileName = "fruitFile.txt";
 
         try (BufferedReader br = new BufferedReader(new FileReader(fileName))) {
 
